@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+}
+
+body {
+  background-color: #e8e8e8;
+}
+
+.stopwatch-container {
+  width: 500px;
+  border-radius: 16px;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 0 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 10px 15px #000;
+}
+
+.display {
+  margin: 40px 0;
+  text-align: center;
+  font-size: 72px;
+}
+
+.stopwatch-container button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 25px 20px;
+  outline: none;
+}
+
+.start-btn {
+  background-color: #61B15A;
+
+}
+
+.stop-btn {
+  background-color: #c75643;
+}
+
+.reset-btn {
+  background-color: #393e46;
+}
+
+.start-btn:hover,
+.stop-btn:hover,
+.reset-btn:hover {
+  filter: brightness(85%);
+}
+
+span {
+  font-size: 20px;
+}
