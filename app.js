@@ -55,6 +55,9 @@ function resetBtnHandler() {
     li.innerText = display.innerText;
     timelapList.appendChild(li);
     display.innerText = `00:00`;
+    clearInterval(intervalId);
+    seconds = 0;
+    minutes = 0;
   })
 }
 
